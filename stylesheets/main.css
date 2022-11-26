@@ -1,0 +1,90 @@
+/* Fonts */
+.white_header {
+  font-size: x-large;
+  font-weight: 600;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  text-align: left;
+  display: inline-block;
+}
+
+#login {
+  display: inline-block;
+  text-align: right;
+}
+
+h2, h3 {
+  font-size: large;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+p {
+  font-size: small;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 10px;
+}
+
+#footer {
+  color: white;
+}
+
+/* Sections */
+header {
+  background-color: maroon;
+  padding-left: 10px;
+  width: 100%;
+}
+
+nav {
+  background-color: darkslategray;
+  text-align: right;
+  padding: 1%;
+}
+
+#navigation {
+  padding-left: 10px;
+}
+.main {
+  display: flex;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.left {
+  float: left;
+  flex: 70%;
+}
+
+.right {
+  float: right;
+  flex: 30%;
+  padding-left: 3%;
+  align-content: center;
+}
+
+#locations {
+  display: block;
+  align-content: top;
+}
+
+footer {
+  background-color: darkslategray;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
